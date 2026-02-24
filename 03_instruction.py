@@ -30,6 +30,8 @@ want_instructions = string_check ("Do you want to see the instructions? ")
 
 if want_instructions == "yes":
     instruction()
+else:
+    exit()
 
 make_statement("Instruction", "ℹ️")
 
@@ -53,4 +55,5 @@ draw (their ticket is free)
 
 
 print()
+
 print("Program continues... ")
